@@ -1,15 +1,17 @@
 {
   "name": "iniciando-gobarber",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server",
+    "dev:debug": "nodemon --inspect src/server"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "1.19.3"
-  },
-  "scripts": {
-    "dev": "nodemon src/server"
+    "nodemon": "1.19.3",
+    "sucrase": "3.10.1"
   }
 }
