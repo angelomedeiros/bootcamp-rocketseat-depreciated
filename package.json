@@ -1,8 +1,0 @@
-{
-  "name": "bootcamp-rocketseat",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:angelomedeiros/bootcamp-rocketseat.git",
-  "author": "Angelo Medeiros Nóbrega <angelomedeiros3@gmail.com>",
-  "license": "MIT"
-}
